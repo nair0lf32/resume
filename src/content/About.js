@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 class About extends Component {
     render() {
         return (
-            <div className="condiv">
+            <div className="container">
                 <h1 className="subtopic">About Me</h1>
                 <h4>Hello there,</h4>
                 <h1>I'm EDEMESSI Florian</h1>

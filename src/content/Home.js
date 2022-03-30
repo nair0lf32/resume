@@ -7,9 +7,15 @@ import Social from '../components/Social'
 class Home extends Component {
     render() {
         return (
-            <div className="condiv home">
+            <div className="container home">
+                <h1 className='title'>Portfolio 2.0</h1>
+                <ReactTypingEffect className="typingeffect" 
+                    text={['I am EDEMESSI Florian', 'web/Mobile development enthusiast']} 
+                    speed={50}
+                    eraseSpeed={100} 
+                    eraseDelay={300}
+                    cursor={['|']} />
                 <img src={profilepic} alt="profile" className="profilepic"></img>
-                <ReactTypingEffect className="typingeffect" text={['I am EDEMESSI Florian', 'I am a web developer wannabe']} speed={100} eraseDelay={700} />
                 <Social />
             </div>
         )

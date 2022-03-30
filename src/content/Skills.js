@@ -8,7 +8,7 @@ class Skills extends Component {
     }
     render() {
         return (
-            <div className="condiv skills">
+            <div className="container skills">
                 <h1 className="subtopic">My Skills</h1>
                 <ul>
                     {this.state.myskills.map((value) => {

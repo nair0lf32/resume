@@ -25,14 +25,15 @@ nav
   padding:60px 30px 0px 30px ;
   flex:var(--sidebar-flex);
   background: rgb(0,40,0);
-  background: linear-gradient(180deg, rgba(0,0,0,1) 50%, rgba(0,124,50,1) 80%);
+  background: linear-gradient(180deg, rgba(20, 20, 25,1) 50%, rgba(0, 0, 0,1) 80%);
 }
-.condiv
+.container
 {
   padding: 100px ;
-  background-color: #9a9b9c;
   flex:var(--condiv-flex);
+  background: linear-gradient(180deg, rgba(107, 231, 250,1) 50%, rgba(77, 148, 255,1) 80%);
 }
+
 
 .home
 {
@@ -52,6 +53,7 @@ nav
 {
   font-size: var(--typing-font);
   margin-bottom: 30px;
+  text-align: center;
 }
 
 nav ul{
@@ -79,6 +81,11 @@ a
 p{
   font-size: var(--fontsize-p);
 }
+
+.title{
+  font-size: 2.5rem;
+}
+
 h1,h2,h3,h4,p{
   margin: 10px;
 }
@@ -137,7 +144,7 @@ h1,h2,h3,h4,p{
     background: rgb(238,103,143);
     background: linear-gradient(90deg, rgba(238,103,143,1) 50%, rgba(132,124,252,1) 80%);
   }
-  .condiv
+  .container
   {
     padding: 50px ;
   }

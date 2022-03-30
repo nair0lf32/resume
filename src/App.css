@@ -96,15 +96,15 @@ h1,h2,h3,h4,p{
   display: flex;
   bottom: 60px;
 }
-.social i
+.social a
 {
   padding-right: 30px;
   font-size: 25px;
-  color: #9a9b9c;
+  color: #000000;
 }
-.social i:hover
+.social a:hover
 {
-  color: #ffffff;
+  color: #bffeee;
 }
 .widecard
 {
@@ -115,7 +115,7 @@ h1,h2,h3,h4,p{
 .widecard:hover
 {
   color: #1b1d20;
-  background-color: #ffffff;
+  background-color: #fffeee;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 .active
@@ -125,6 +125,7 @@ h1,h2,h3,h4,p{
 .skills ul li
 {
   list-style-type:none;
+  font-size: 1.5rem;
   margin:30px;
 }
 
@@ -164,7 +165,7 @@ h1,h2,h3,h4,p{
     justify-content: space-around;
     bottom: 30px;
   }
-  .social i
+  .social a
   {
     padding-right: 0px;
   }

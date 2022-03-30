@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faTree, faDownload  } from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+
 class Social extends Component {
     render() {
         return (
             <div className="social">
-                <a href="https://codepen.io/#" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faCoffee} /></a>
-                <a href="https://github.com/#" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
-                <a href="https://Instagram.com#" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
-                <a href="https://www.facebook.com/#" target="_blank" rel="noreferrer"><i className="fab fa-facebook-f"></i></a>
-                <a href="https://Linkedin.com/in/#" target="_blank" rel="noreferrer"><i className="fab fa-linkedin-in"></i></a>
+                <a href="https://linktr.ee/nairolf32" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTree} /></a>
+                <a href="https://github.com/nair0lf32" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
+                <a href="#" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faDownload} /></a>
             </div>
         )
     }

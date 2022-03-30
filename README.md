@@ -2,11 +2,11 @@
 
 A simple resume/portfolio single-page application built with [React](https://reactjs.org/).
 
-following this nice [example](https://github.com/naaficodes/Portfolio_Website_ReactJS) and adapting it to this project.
+following a nice [example/template](https://github.com/naaficodes/Portfolio_Website_ReactJS) and adapting it a bit by:
 
-- fixed multiple errors and warnings
-- updated the routing
-- minor changes to the styling...
+- fixing multiple console errors and warnings
+- updated the react routing
+- minor changes to the styling and the layout
 
 This is a quick project to learn a bit more about react, and display a bit more about me.
 

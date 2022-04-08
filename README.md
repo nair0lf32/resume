@@ -5,8 +5,10 @@ A simple resume/portfolio single-page application built with [React](https://rea
 following a nice [example/template](https://github.com/naaficodes/Portfolio_Website_ReactJS) and adapting it a bit by:
 
 - fixing multiple console errors and warnings
-- updated the react routing
-- minor changes to the styling and the layout
+- updating the react routing method
+- doing minor changes to the styling and the layout...
 
-This is a quick project to learn a bit more about react, and display a bit more about me.
+This is a quick project to learn a bit more about react (and display a bit more about me, lol)
+
+This is public mostly because It's served github pages
 

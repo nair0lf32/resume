@@ -1,6 +1,7 @@
 {
   "name": "resume",
   "version": "0.1.0",
+  "homepage": "http://nair0lf32.github.io/resume",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",

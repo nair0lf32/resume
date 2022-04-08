@@ -8,9 +8,9 @@ class Home extends Component {
     render() {
         return (
             <div className="container home">
-                <h1 className='title'>My Resume/portfolio 2.0</h1>
+                <h1 className='title'>My Resume (portfolio 2)</h1>
                 <ReactTypingEffect className="typingeffect" 
-                    text={['I am EDEMESSI Florian', 'web/Mobile development enthusiast']} 
+                    text={['I am EDEMESSI Florian ', 'A web/Mobile development enthusiast']} 
                     speed={50}
                     eraseSpeed={100} 
                     eraseDelay={300}

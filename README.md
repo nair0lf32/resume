@@ -2,7 +2,7 @@
 
 A simple resume/portfolio single-page application built with [React](https://reactjs.org/).
 
-following a nice [example/template](https://github.com/naaficodes/Portfolio_Website_ReactJS) and adapting it a bit by:
+following a nice [example](https://github.com/naaficodes/Portfolio_Website_ReactJS) and adapting it a bit by:
 
 - fixing multiple console errors and warnings
 - updating the react routing method

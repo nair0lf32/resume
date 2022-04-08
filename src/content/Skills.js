@@ -3,7 +3,7 @@ class Skills extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            'myskills': ['HTML', 'CSS', 'JS', 'PHP', 'REACT JS', 'PYTHON']
+            'myskills': ['JavaScript', 'React JS', 'Python', 'Php', 'Java']
         };
     }
     render() {
@@ -12,7 +12,7 @@ class Skills extends Component {
                 <h1 className="subtopic">My Skills</h1>
                 <ul>
                     {this.state.myskills.map((value) => {
-                        return <li>{value}</li>
+                        return <li key={value}> {value}</li>
                     })}
                 </ul>
             </div>

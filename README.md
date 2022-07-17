@@ -11,4 +11,3 @@ following a nice [example](https://github.com/naaficodes/Portfolio_Website_React
 This is a quick project to learn a bit more about react (and display a bit more about me, lol)
 
 This is public mostly because It's served github pages
-
